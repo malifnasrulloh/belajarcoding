@@ -1,0 +1,10 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp"
+    },
+    "telemetry.enableCrashReporter": false
+}

@@ -6,7 +6,8 @@ int main(){
         if(a==7){
             //continue; 
             break;
-            /*continue jika dipakai di while maka (while kerjanya berurutan) akan menyekip program sesuai
+            /*
+            continue jika dipakai di while maka (while kerjanya berurutan) akan menyekip program sesuai
             urutannya, dalam kasus ini maka saat a=7 program akan kembali ke looping tanpa a++, sehingga
             nilai a akan selalu 7 dan terlooping terosss, untuk mengatasinya maka a++ harus di tulis sebelum
             if / sebelum disebutkan kondisi jika nya

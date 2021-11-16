@@ -8,7 +8,7 @@ int main(){
     system("clear");
     printf("kalkulator sederhana\n");
     printf("////////////////////");
-    printf("\nMasukkan operasi yang diinginkan(+,-,*,/,%c) : ",'%');
+    printf("\nMasukkan operasi yang diinginkan(+,-,*,/,%%) : ");
     scanf("%s", &operasi);
     operasibilangan();
     //printf("\nTekan apa saja untuk OPSIII.........");
@@ -25,6 +25,7 @@ int main(){
     }
     return 0;
 }
+
 void operasibilangan(){
     if(operasi=='+'){
         printf("Masukkan bilangan pertama : ");

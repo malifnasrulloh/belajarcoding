@@ -24,5 +24,7 @@ public class Main {
             default:
                 break;
         }
+        //operator logika
+        // and(&&), or(||), xor(^), not (!)
     }
 }

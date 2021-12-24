@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class dina1412{
+    static Scanner input = new Scanner(System.in);
 	public static void main(String[] args){
 		int pilih;
-		Scanner input = new Scanner(System.in);
 		System.out.println("Menu");
         System.out.println("1. Data Siswa");
         System.out.println("2. Mata Pelajaran");

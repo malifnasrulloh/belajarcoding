@@ -6,6 +6,7 @@ class smansa{
     String kelas;
     int NIM;
 
+    java12contructor kelasutama;
     smansa(int Sama){
         System.out.println(Sama);
     }
@@ -18,5 +19,6 @@ public class java12contructor {
         new smansa(2312312); //objek dibuat saja
         Muridku.NIM=input.nextInt();
         System.out.println(String.format("%8s",Integer.toBinaryString(Muridku.NIM)).replace(" ","0"));
+        Muridku.kelasutama.main(args);
     }
 }

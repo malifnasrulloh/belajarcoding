@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="login" method="post">
+        <table border="0">
+            <tr>
+                <td align="right">
+                    <label for="username">NIM : </label>
+                </td>
+                <td>
+                    <input type="text" placeholder="NIM" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="password">Password : </label>
+                </td>
+                <td>
+                    <input type="password" id="password" placeholder="PIC">
+                </td>
+            </tr>
+            <tr align=" center">
+                <td colspan="2">
+                    <input type="radio" name="jeniskelamin" id="pria">
+                    <label for="pria">Pria</label>
+                    <input type="radio" name="jeniskelamin" id="perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </td>
+            </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input type="checkbox" id="Masak"> <label for="Masak">Masak <br></label>
+                    <input type="checkbox" id="Game"> <label for="Game">Game</label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="kota">Kota : </label>
+                </td>
+                <td>
+                    <select name="alamat" id="kota">
+                        <option>Jombang</option>
+                        <option>Surabaya</option>
+                        <option>Malang</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="komentar">Komentar :</label>
+                </td>
+                <td>
+                    <textarea name="komen" id="komentar" cols="30" rows="10" placeholder="ISI KOMENTAR" style="resize: none;"></textarea>
+                </td>
+            </tr>
+            <tr>
+                
+                <td colspan="2" align="center">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

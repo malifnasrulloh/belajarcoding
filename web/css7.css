@@ -1,0 +1,11 @@
+h1, .paragraf{
+    color: rgb(204, 224, 21);
+    font-weight: bolder;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#tulisan{
+    color: blue
+}
+
